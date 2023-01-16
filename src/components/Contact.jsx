@@ -1,7 +1,6 @@
-const Contact = () => {
-  const pdf =
-    'https://drive.google.com/file/d/1YcsrUDjTZThhxPjmXIjHk2GjXSW5k8LR/view?usp=share_link';
+import pdf from '../assets/ejemplo-cv.pdf';
 
+const Contact = () => {
   return (
     <div id="contact" className="w-11/12 mx-auto pt-16">
       <div className="lg:flex mb-10">
