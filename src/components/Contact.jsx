@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div id="contact" className="w-11/12 mx-auto pt-16">
       <div className="lg:flex mb-10">
-        <div className="w-11/12 mx-auto p-10 rounded shadow-md">
-          <div className="xl:w-5/6 xl:px-0 px-8 mx-auto">
-            <h1 className="xl:text-5xl text-3xl pb-4 text-white font-bold">
+        <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
+          <div className="xl:w-5/6 xl:px-0  mx-auto">
+            <h1 className="xl:text-6xl text-3xl pb-4 text-white font-bold">
               Contact with <span className="text-green-500">me!!</span>
             </h1>
             <p className="text-xl text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">

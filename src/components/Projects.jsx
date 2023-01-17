@@ -3,7 +3,7 @@ import 'boxicons';
 const Projects = () => {
   return (
     <>
-      <div id="projects" className="">
+      <div id="projects" className="w-100 flex justify-center items-center">
         <div className="mx-auto max-w-6xl py-8">
           <h2 class="text-center text-5xl mb-10 font-medium">
             This are my{' '}
@@ -11,22 +11,26 @@ const Projects = () => {
           </h2>
           <div className="flex flex-col flex-wrap items-center justify-center gap-3 lg:justify-around">
             {/* Card 1 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
-              <div className="text-xl py-3 text-center backdrop-blur-sm">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+              <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Control Presupuesto</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className=" sm:w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       Tailwindcss
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -70,22 +74,26 @@ const Projects = () => {
             {/* Card 1 Ends */}
 
             {/* Card 2 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Cotizador Criptomonedas</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4 ">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       StyledComponents
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -129,22 +137,26 @@ const Projects = () => {
             {/* Card 2 Ends */}
 
             {/* Card 3 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Patients CRUD</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       Tailwindcss
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -187,22 +199,26 @@ const Projects = () => {
             {/* Card 3 Ends */}
 
             {/* Card 4 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">CMR Project</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       Tailwindcss
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -242,25 +258,30 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Card 4 Ends */}
 
-            {/* Card 5 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            {/* Card 4 Ends */}
+            {/*
+            { Card 5 }
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3>Titulo Proyecto</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       Tailwindcss
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -293,25 +314,29 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Card 5 Ends */}
+            {Card 5 Ends}
 
-            {/* Card 6 */}
-            <div className="mx-2 w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            { Card 6 }
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3>Pronto nuevo proyecto...</h3>
               </div>
               <div className="">
-                <div className="w-11/12 mx-auto flex justify-center items-center gap-3 p-4 ">
-                  <div className="w-100 bg-blue-400 py-1.5 px-6 rounded-full">
-                    <p className="text-base text-white font-bold">React</p>
+                <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      React
+                    </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
                       Tailwindcss
                     </p>
                   </div>
-                  <div className="bg-blue-400 py-1.5 px-5 rounded-full">
-                    <p className="text-base text-white font-bold">ViteJS</p>
+                  <div className="border px-1.5 md:px-5 rounded-md">
+                    <p className="text-base md:text-lg text-white font-bold">
+                      ViteJS
+                    </p>
                   </div>
                 </div>
 
@@ -344,7 +369,8 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Card 6 Ends */}
+            { Card 6 Ends }
+            */}
           </div>
         </div>
       </div>
