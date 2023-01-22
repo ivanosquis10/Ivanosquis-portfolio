@@ -1,3 +1,4 @@
+import Button from './Button';
 import pdf from '../assets/ejemplo-cv.pdf';
 
 const Contact = () => {
@@ -70,15 +71,8 @@ const Contact = () => {
                   Ivanosquis10#5178
                 </a>
               </div>
-              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 cursor-pointer">
-                <a
-                  href=""
-                  target="_blank"
-                  className="font-bold"
-                  rel="noopener noreferrer"
-                >
-                  Descargar CV - Download CV
-                </a>
+              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300">
+                <Button src={pdf} text="Ver CV - View CV" />
               </div>
             </div>
           </div>
