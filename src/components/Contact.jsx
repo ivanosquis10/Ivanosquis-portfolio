@@ -72,7 +72,7 @@ const Contact = () => {
               </div>
               <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 cursor-pointer">
                 <a
-                  href={pdf}
+                  href=""
                   target="_blank"
                   className="font-bold"
                   rel="noopener noreferrer"

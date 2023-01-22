@@ -282,7 +282,7 @@ const Projects = () => {
 
                 <div className="w-11/12 mx-auto p-4">
                   <p className="text-base text-gray-300 mt-1">
-                    Cotizador de Seguros de Automoviles, este proyecto ter
+                    Cotizador de Seguros de Automoviles, este proyecto te
                     permite cotizar el seguro de un auto dependiendo de las
                     features que elijas del formulario. Se usa useContext,
                     Tailwindcss, custom hooks, etc.
