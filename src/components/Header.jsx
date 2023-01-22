@@ -129,7 +129,7 @@ const Header = () => {
 
       {/* mobile */}
       <div
-        className={`${menu ? 'hidden' : 'block'} sm:hidden `}
+        className={`${menu ? 'hidden' : 'block'}  h-screen sm:hidden `}
         id="mobile-menu"
       >
         <div className="space-y-4 px-5 pt-2 pb-3 text-center">

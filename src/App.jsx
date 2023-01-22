@@ -10,7 +10,7 @@ import 'boxicons';
 const App = () => {
   return (
     <div className="container mx-auto bg-default text-white overflow-x-hidden">
-      {/*<Announcement /> */}
+      {/* <Announcement /> */}
       <Header />
       <AboutMe />
       <Skills />

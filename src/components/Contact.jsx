@@ -70,14 +70,14 @@ const Contact = () => {
                   Ivanosquis10#5178
                 </a>
               </div>
-              <div className="w-fit mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 cursor-pointer">
+              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 cursor-pointer">
                 <a
                   href={pdf}
                   target="_blank"
                   className="font-bold"
                   rel="noopener noreferrer"
                 >
-                  Descargar CV / Download CV
+                  Descargar CV - Download CV
                 </a>
               </div>
             </div>

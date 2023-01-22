@@ -1,4 +1,4 @@
-import {Link} from 'react-scroll'
+import { Link } from 'react-scroll';
 
 const AboutMe = () => {
   return (
@@ -8,14 +8,14 @@ const AboutMe = () => {
     >
       <div className="mx-auto max-w-screen">
         <div className="text-center">
-          <p className="text-3xl font-bold leading-8 text-slate-400 mb-3">
+          <p className="text-2xl md:text-3xl font-bold leading-8 text-slate-400 mb-3">
             Welcome to my world!!
           </p>
-          <h2 className="mt-3 mb-3 text-[5rem] font-medium leading-[4rem] tracking-tight text-white">
+          <h2 className="mt-3 mb-3 text-[4rem] md:text-[5rem] font-medium leading-[4rem] tracking-tight text-white">
             I'm
             <span className="text-green-500 font-bold"> Iván Rodríguez</span>
           </h2>
-          <p className="mt-5 text-lg leading-relaxed text-slate-400">
+          <p className="mt-5 text-md md:text-lg leading-relaxed text-slate-400">
             Specify helps you unify your brand identity by collecting, storing
             and distributing design tokens and assets — automatically.
           </p>
@@ -28,7 +28,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className=" transform rounded-md bg-green-600 px-5 py-3 border border-slate-200 font-bold text-white text-center transition-colors hover:bg-green-700"
+            className="transform rounded-md bg-green-600 px-5 py-3 border border-slate-200 font-bold text-white text-center transition-colors hover:bg-green-700"
           >
             Go to my proyects!
           </Link>
@@ -40,7 +40,7 @@ const AboutMe = () => {
             duration={500}
             className=" transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700"
           >
-            Go to my contact!!!!
+            Go to my contact!!
           </Link>
         </div>
       </div>

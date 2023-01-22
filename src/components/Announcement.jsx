@@ -1,8 +1,20 @@
 const Announcement = () => {
   return (
-    <div className="backdrop-blur-sm sm:flex sm:items-center sm:justify-center sm:gap-2 w-100 p-2 bg-green-600 text-center text-2l font-bold">
-      <p>Announcement! Currently learning full React and Typescript!</p>
-      <p>Anuncio! Actualmente aprendiendo React a full y Typescript!</p>
+    <div className="text-xs sm:flex sm:items-center sm:justify-center sm:gap-2 md:text-base w-100 text-center font-bold shadow-md border border-green-600 ">
+      <p className=" p-1 text-red-700  font-black">
+        Announcement!
+        <span className="text-white">
+          {' '}
+          Currently learning full React and Typescript!{' '}
+        </span>
+      </p>
+
+      <p className=" p-1 text-red-700  font-black">
+        Anuncio!{' '}
+        <span className="text-white">
+          Actualmente aprendiendo React a full y Typescript!
+        </span>
+      </p>
     </div>
   );
 };

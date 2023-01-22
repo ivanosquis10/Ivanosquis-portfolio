@@ -49,8 +49,8 @@ const Skills = () => {
           </p>
 
           <p className=" flex items-center justify-center gap-2 mt-1 py-2 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            git
-            <box-icon type="logo" name="git" color="#f06529"></box-icon>
+            NodeJS
+            <box-icon type="logo" name="nodejs" color="#3c873a"></box-icon>
           </p>
         </div>
       </div>
