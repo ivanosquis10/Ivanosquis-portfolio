@@ -8,9 +8,9 @@ const Contact = () => {
       <div className="lg:flex mb-10">
         <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
           <div className="xl:w-5/6 xl:px-0  mx-auto">
-            <h1 className="text-3xl md:text-6xl md:pb-4 pb-3 text-white font-bold uppercase">
+            <h2 className="text-center text-4xl md:text-6xl md:pb-4 pb-3 text-white font-bold uppercase">
               Contact <span className="text-green-500">me!!</span>
-            </h1>
+            </h2>
             <p className="text-md md:text-xl text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
               ¿Tiene alguna pregunta? ¿Está interesado? ¿Tiene alguna sugerencia
               o simplemente quiere saludarnos? Póngase en contacto conmigo.
