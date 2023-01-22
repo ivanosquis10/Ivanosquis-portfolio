@@ -15,9 +15,8 @@ const AboutMe = () => {
             I'm
             <span className="text-green-500 font-bold"> Iván Rodríguez</span>
           </h2>
-          <p className="mt-5 text-md md:text-lg leading-relaxed text-slate-400">
+          <p className="mt-5 text-md md:text-lg leading-relaxed text-slate-400 px-2">
           I'm a very proactive person, eager to learn and improve myself more and more. 
-          <br />
           I consider myself a good team player and very communicative, passionate and dedicated to my responsibilities.
           </p>
         </div>
