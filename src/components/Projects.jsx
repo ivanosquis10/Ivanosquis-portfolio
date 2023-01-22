@@ -5,7 +5,7 @@ const Projects = () => {
     <>
       <div id="projects" className="w-100 flex justify-center items-center">
         <div className="mx-auto max-w-6xl py-8">
-          <h2 class="text-center text-5xl mb-10 font-medium">
+          <h2 className="text-center text-5xl mb-10 font-medium">
             This are my{' '}
             <span className="text-6xl font-bold text-green-500">Projects!</span>
           </h2>
@@ -62,7 +62,7 @@ const Projects = () => {
                     >
                       <box-icon
                         name="paper-plane"
-                        color="#bdb9b9"
+                        color="gray"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -120,7 +120,7 @@ const Projects = () => {
                     >
                       <box-icon
                         name="paper-plane"
-                        color="#bdb9b9"
+                        color="gray"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -182,7 +182,7 @@ const Projects = () => {
                     >
                       <box-icon
                         name="paper-plane"
-                        color="#bdb9b9"
+                        color="gray"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -244,7 +244,7 @@ const Projects = () => {
                     >
                       <box-icon
                         name="paper-plane"
-                        color="#bdb9b9"
+                        color="gray"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -307,7 +307,7 @@ const Projects = () => {
                     >
                       <box-icon
                         name="paper-plane"
-                        color="#bdb9b9"
+                        color="gray"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -319,7 +319,7 @@ const Projects = () => {
 
             {/* Card 5 Ends */}
 
-            {/* Card 5 }
+            {/* Card 6 }
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3>Auto Insurance Quote</h3>
@@ -372,9 +372,9 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            {/* Card 5 Ends */}
+            {/* Card 6 Ends */}
 
-            {/* Card 6  }
+            {/* Card 7  }
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
               <div className="text-xl py-3 text-center">
                 <h3>Pronto nuevo proyecto...</h3>
@@ -427,7 +427,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            { Card 6 Ends */}
+            { Card 7 Ends */}
           </div>
         </div>
       </div>
