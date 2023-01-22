@@ -11,7 +11,7 @@ const Projects = () => {
           </h2>
           <div className="flex flex-col flex-wrap items-center justify-center gap-3 lg:justify-around">
             {/* Card 1 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Control Presupuesto</h3>
               </div>
@@ -74,7 +74,7 @@ const Projects = () => {
             {/* Card 1 Ends */}
 
             {/* Card 2 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Cotizador Criptomonedas</h3>
               </div>
@@ -132,7 +132,7 @@ const Projects = () => {
             {/* Card 2 Ends */}
 
             {/* Card 3 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Patients CRUD</h3>
               </div>
@@ -194,7 +194,7 @@ const Projects = () => {
             {/* Card 3 Ends */}
 
             {/* Card 4 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">CMR Project</h3>
               </div>
@@ -257,7 +257,7 @@ const Projects = () => {
             {/* Card 4 Ends */}
 
             {/* Card 5 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl py-3 text-center">
                 <h3 className="font-bold uppercase">Auto Insurance Quote</h3>
               </div>
