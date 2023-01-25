@@ -64,15 +64,15 @@ const Header = () => {
                 Ivanosquis!!
               </a>
             </div>
-            <div className="hidden sm:ml-6 sm:block">
-              <div className="flex items-center text-5xl space-x-4">
+            <div className="hidden sm:block">
+              <div className="flex text-[12px] md:text-md xl:text-xl items-center space-x-4">
                 <Link
                   to="nav"
                   spy={true}
                   smooth={true}
                   offset={-100}
                   duration={500}
-                  className="bg-gray-900 text-white py-1 px-2  border border-green-600  rounded-md text-lg font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white py-1 px-2  border border-green-600 rounded-md  font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-200"
                   aria-current="page"
                 >
                   Home!
@@ -84,7 +84,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md text-lg font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
                 >
                   About me!
                 </Link>
@@ -95,7 +95,7 @@ const Header = () => {
                   smooth={true}
                   offset={0}
                   duration={500}
-                  className="bg-gray-900 text-white  rounded-md text-lg font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
                 >
                   Skills!
                 </Link>
@@ -106,7 +106,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white  rounded-md text-lg font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
                 >
                   Projects!
                 </Link>
@@ -117,7 +117,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md text-lg font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
                 >
                   Contact me!
                 </Link>
