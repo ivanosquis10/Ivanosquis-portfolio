@@ -35,12 +35,26 @@ const Projects = () => {
                 </div>
 
                 <div className="w-11/12 mx-auto p-4">
-                  <p className="text-base text-gray-300 mt-1">
-                    Permite colocar un presupuesto y una serie de gastos a
-                    través de un formulario que se van listando en la parte
-                    inferior de la pantalla. Permite agregar, eliminar y editar,
-                    existe validacion en los diferentes formularios.
-                  </p>
+                  <div className="grid md:grid-cols-2 items-center gap-3">
+                    <a
+                      className="cursor-pointer hover:shadow-md hover:shadow-green-700 hover:rounded-xl"
+                      href="https://aesthetic-lolly-990a8f.netlify.app/"
+                      target="_blank"
+                    >
+                      <img
+                        className="bg-cover rounded-xl"
+                        src="https://i.ibb.co/NVGwNRm/Screenshot-2023-01-25-17-04-12.png"
+                        alt="demo del proyecto del planificador de gastos"
+                      />
+                    </a>
+                    <p className="text-base md:text-xl text-gray-300 mt-1">
+                      Permite colocar un presupuesto y una serie de gastos a
+                      través de un formulario que se van listando en la parte
+                      inferior de la pantalla. Permite agregar, eliminar y
+                      editar, existe validacion en los diferentes formularios.
+                    </p>
+                  </div>
+
                   <div className="flex items-center justify-center gap-2 py-4 mt-2">
                     <a
                       href="https://github.com/ivanosquis10/control-presupuesto-proyecto"
