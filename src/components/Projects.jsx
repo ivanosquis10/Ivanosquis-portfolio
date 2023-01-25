@@ -110,7 +110,7 @@ const Projects = () => {
                   <div className="grid md:grid-cols-2 items-center gap-3">
                     <a
                       className="cursor-pointer hover:shadow-md hover:shadow-green-700 hover:rounded-xl"
-                      href="https://aesthetic-lolly-990a8f.netlify.app/"
+                      href="https://cerulean-cucurucho-e6c6c9.netlify.app"
                       target="_blank"
                     >
                       <img
@@ -186,7 +186,7 @@ const Projects = () => {
                   <div className="grid md:grid-cols-2 items-center gap-3">
                     <a
                       className="cursor-pointer hover:shadow-md hover:shadow-green-700 hover:rounded-xl"
-                      href="https://aesthetic-lolly-990a8f.netlify.app/"
+                      href="https://cute-unicorn-4c9a71.netlify.app"
                       target="_blank"
                     >
                       <img
@@ -261,7 +261,7 @@ const Projects = () => {
                   <div className="grid md:grid-cols-2 items-center gap-3">
                     <a
                       className="cursor-pointer hover:shadow-md hover:shadow-green-700 hover:rounded-xl"
-                      href="https://aesthetic-lolly-990a8f.netlify.app/"
+                      href="https://autoinsurance-quotes-ivanosquis.vercel.app/"
                       target="_blank"
                     >
                       <img

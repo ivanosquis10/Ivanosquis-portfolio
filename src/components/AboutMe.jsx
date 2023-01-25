@@ -28,7 +28,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className="transform rounded-md bg-green-600 px-5 py-3 border border-slate-200 font-bold text-white text-center transition-colors hover:bg-green-700"
+            className="transform rounded-md bg-green-600 px-5 py-3 border border-slate-200 font-bold text-white text-center transition-colors hover:bg-green-700 hover:cursor-pointer"
           >
             Go to my proyects!
           </Link>
@@ -38,7 +38,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className=" transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700"
+            className=" transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700 hover:cursor-pointer"
           >
             Go to my contact!!
           </Link>

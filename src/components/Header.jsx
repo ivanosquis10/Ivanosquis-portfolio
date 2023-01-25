@@ -84,7 +84,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
                   About me!
                 </Link>
@@ -95,7 +95,7 @@ const Header = () => {
                   smooth={true}
                   offset={0}
                   duration={500}
-                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
                   Skills!
                 </Link>
@@ -106,7 +106,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white  rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
                   Projects!
                 </Link>
@@ -117,7 +117,7 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200"
+                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
                   Contact me!
                 </Link>
