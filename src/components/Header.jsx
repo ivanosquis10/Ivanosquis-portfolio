@@ -65,7 +65,7 @@ const Header = () => {
               </a>
             </div>
             <div className="hidden sm:block">
-              <div className="flex text-[12px] md:text-md xl:text-xl items-center space-x-4">
+              <div className="flex text-[12px] md:text-base items-center space-x-4">
                 <Link
                   to="nav"
                   spy={true}

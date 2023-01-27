@@ -1,4 +1,14 @@
 import 'boxicons';
+import html from '../assets/skillsimg/html.svg';
+import css from '../assets/skillsimg/css.svg';
+import js from '../assets/skillsimg/js.svg';
+import tailwindcss from '../assets/skillsimg/tailwindcss.svg';
+import react from '../assets/skillsimg/react.svg';
+import vitejs from '../assets/skillsimg/vitejs.svg';
+import nodejs from '../assets/skillsimg/nodejs.svg';
+import git from '../assets/skillsimg/git.svg';
+import mysql from '../assets/skillsimg/mysql.svg';
+import terminal from '../assets/skillsimg/terminal.svg';
 
 const Skills = () => {
   return (
@@ -8,50 +18,77 @@ const Skills = () => {
           This are my{' '}
           <span className="text-6xl font-bold text-green-500">Skills!</span>
         </h2>
-        <div className="w-full mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8 text-center uppercase">
-          <p className="text-2xl flex items-center justify-center gap-2 py-2 mt-1 font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            HTML
-            <box-icon type="logo" name="html5" color="#f06529"></box-icon>
-          </p>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            css
-            <box-icon type="logo" name="css3" color="#2965f1"></box-icon>
-          </p>
+        <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8 text-center">
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img className="w-4/12 md:w-6/12" src={html} alt="logo de html5" />
+            <p className="font-bold text-2xl">HTML</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            javascript
-            <box-icon type="logo" name="javascript" color="yellow"></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img className="w-4/12 md:w-6/12" src={css} alt="logo de css3" />
+            <p className="font-bold text-2xl">CSS</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            react
-            <box-icon type="logo" name="react" color="#61dafb"></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img
+              className="w-4/12 md:w-6/12"
+              src={js}
+              alt="logo de javascript"
+            />
+            <p className="font-bold text-2xl">JavaScript</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            github
-            <box-icon type="logo" name="github" color="gray"></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img className="w-5/12 md:w-6/12" src={react} alt="logo de react" />
+            <p className="font-bold text-2xl">React</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            git
-            <box-icon type="logo" name="git" color="#f06529"></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img
+              className="w-4/12 md:w-6/12"
+              src={vitejs}
+              alt="logo de vitejs"
+            />
+            <p className="font-bold text-2xl">ViteJS</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            Tailwindcss
-            <box-icon
-              type="logo"
-              name="tailwind-css"
-              color="#38bdf8"
-            ></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img
+              className="w-4/12 md:w-6/12"
+              src={nodejs}
+              alt="logo de nodeJS"
+            />
+            <p className="font-bold text-2xl">NodeJS</p>
+          </div>
 
-          <p className=" flex items-center justify-center gap-2 mt-1 py-2 py-2 text-2xl font-bold text-white shadow shadow-green-600 rounded-md hover:text-green-600 hover:bg-slate-800 ease-in-out duration-300 hover:cursor-pointer">
-            NodeJS
-            <box-icon type="logo" name="nodejs" color="#3c873a"></box-icon>
-          </p>
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img className="w-4/12 md:w-6/12" src={git} alt="logo de git" />
+            <p className="font-bold text-2xl">Git</p>
+          </div>
+
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img className="w-4/12 md:w-6/12" src={mysql} alt="logo de mysql" />
+            <p className="font-bold text-2xl">Mysql</p>
+          </div>
+
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img
+              className="w-4/12 md:w-6/12"
+              src={terminal}
+              alt="logo de la terminal"
+            />
+            <p className="font-bold text-2xl">Terminal</p>
+          </div>
+
+          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+            <img
+              className="w-4/12 md:w-6/12"
+              src={tailwindcss}
+              alt="logo de tailwindcss"
+            />
+            <p className="font-bold text-2xl">TailwindCSS</p>
+          </div>
         </div>
       </div>
     </section>

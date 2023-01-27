@@ -6,7 +6,7 @@ const AboutMe = () => {
       id="about"
       className="py-24 flex items-center min-h-full justify-center"
     >
-      <div className="mx-auto max-w-screen">
+      <div className="mx-auto max-w-full px-5 md:px-10">
         <div className="text-center">
           <p className="text-2xl md:text-3xl font-bold leading-8 text-slate-400 mb-3">
             Welcome to my world!!
@@ -16,8 +16,10 @@ const AboutMe = () => {
             <span className="text-green-500 font-bold"> Iván Rodríguez</span>
           </h2>
           <p className="mt-5 text-md md:text-lg leading-relaxed text-slate-400 px-2">
-          I'm a very proactive person, eager to learn and improve myself more and more. 
-          I consider myself a good team player and very communicative, passionate and dedicated to my responsibilities.
+            Tengo 22 años de edad y soy de Venezuela. Soy una persona muy
+            proactiva, con ganas de aprender y mejorar cada vez más. Me
+            considero un buen compañero de equipo y muy comunicativo, positivo,
+            analista, apasionado y dedicado a mis responsabilidades.
           </p>
         </div>
 
