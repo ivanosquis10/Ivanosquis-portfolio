@@ -15,7 +15,7 @@ const Skills = () => {
     <section id="skills">
       <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-4xl lg:px-8">
         <h2 className="text-center text-5xl mb-10 font-medium">
-          This are my{' '}
+          Here my{' '}
           <span className="text-6xl font-bold text-green-500">Skills!</span>
         </h2>
 

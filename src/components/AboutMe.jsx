@@ -40,7 +40,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className=" transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700 hover:cursor-pointer"
+            className="transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700 hover:cursor-pointer"
           >
             Go to my contact!!
           </Link>

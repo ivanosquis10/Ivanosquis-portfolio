@@ -3,7 +3,7 @@ import { Link } from 'react-scroll';
 const Footer = () => {
   return (
     <footer id="footer" className="mx-auto w-11/12 p-16">
-      <div className="">
+      <div>
         <div className="flex flex-col text-center">
           <p className="text-lg leading-none text-gray-400 mt-4 font-bold">
             Ivanosquis - Copyright © 2023

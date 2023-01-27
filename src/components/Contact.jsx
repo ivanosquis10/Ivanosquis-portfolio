@@ -7,7 +7,7 @@ const Contact = () => {
     <div id="contact" className="w-11/12 mx-auto pt-16">
       <div className="lg:flex mb-10">
         <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
-          <div className="xl:w-5/6 xl:px-0  mx-auto">
+          <div className="xl:w-5/6 xl:px-0 mx-auto">
             <h2 className="text-center text-4xl md:text-6xl md:pb-4 pb-3 text-white font-bold uppercase">
               Contact <span className="text-green-500">me!!</span>
             </h2>
@@ -55,7 +55,7 @@ const Contact = () => {
                 </a>
               </div>
 
-              <div className="flex items-center gap-1 shadow rounded-md py-1  sm:w-2/5 sm:px-2">
+              <div className="flex items-center gap-1 shadow rounded-md py-1 sm:w-2/5 sm:px-2">
                 <box-icon
                   name="discord"
                   type="logo"

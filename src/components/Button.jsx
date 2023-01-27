@@ -1,6 +1,6 @@
 const Button = ({ src, text }) => {
   return (
-    <button className="">
+    <button>
       <a
         href={src}
         target="_blank"
