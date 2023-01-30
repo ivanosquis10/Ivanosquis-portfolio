@@ -19,8 +19,9 @@ const Skills = () => {
           <span className="text-6xl font-bold text-green-500">Skills!</span>
         </h2>
 
-        <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 xl:gap-x-8 text-center">
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
+        <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-5 text-center">
+          
+          <div className="w-9/12 mx-auto md:w-full py-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
             <img className="w-4/12 md:w-6/12" src={html} alt="logo de html5" />
             <p className="font-bold text-2xl">HTML</p>
           </div>

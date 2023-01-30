@@ -12,10 +12,12 @@ const App = () => {
     <div className="container mx-auto bg-default text-white overflow-x-hidden">
       {/* <Announcement /> */}
       <Header />
-      <AboutMe />
-      <Skills />
-      <Projects />
-      <Contact />
+      <main>
+        <AboutMe />
+        <Skills />
+        <Projects />
+        <Contact />
+      </main>
       <Footer />
     </div>
   );

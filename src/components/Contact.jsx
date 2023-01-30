@@ -4,12 +4,12 @@ import 'boxicons';
 
 const Contact = () => {
   return (
-    <div id="contact" className="w-11/12 mx-auto pt-16">
+    <section id="contact" className="w-11/12 mx-auto pt-16">
       <div className="lg:flex mb-10">
         <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
           <div className="xl:w-5/6 xl:px-0 mx-auto">
             <h2 className="text-center text-4xl md:text-6xl md:pb-4 pb-3 text-white font-bold uppercase">
-              Contact <span className="text-green-500">me!!</span>
+              Hi,<span className="text-green-500">Contact</span>
             </h2>
             <p className="text-md md:text-xl text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
               ¿Tiene alguna pregunta? ¿Está interesado? ¿Tiene alguna sugerencia
@@ -78,7 +78,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

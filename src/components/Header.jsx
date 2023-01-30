@@ -5,18 +5,12 @@ import heart from '../assets/heart.svg';
 const Header = () => {
   const [menu, setMenu] = useState(true);
 
-  const handleMobileMenu = () => {
-    if (menu) {
-      setMenu(false);
-    } else {
-      setMenu(true);
-    }
-  };
+  const handleMobileMenu = () => setMenu(!menu);
 
   return (
-    <nav className="navbar" id="nav">
+    <nav className="py-1 bg-slate-900" name="nav" id="nav">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between">
+        <div className="relative flex h-16 items-center justify-between md:fixed md:z-50 md:top-0 md:left-0 md:right-0 md:bg-slate-900 md:px-5 md:pb-5">
           <div className="absolute inset-y-0 left-0 flex items-center mt-5 sm:hidden">
             <button
               type="button"
@@ -66,10 +60,10 @@ const Header = () => {
                 alt="imagen de un corazon"
               />
               <a className="font-black" href="#">
-                Ivanosquis!!
+                Ivanosquis!
               </a>
             </div>
-            <div className="hidden sm:block">
+            <div className="hidden sm:block ">
               <div className="flex text-[12px] md:text-base items-center space-x-4">
                 <Link
                   to="nav"
@@ -77,10 +71,10 @@ const Header = () => {
                   smooth={true}
                   offset={-100}
                   duration={500}
-                  className="bg-gray-900 text-white py-1 px-2 border border-green-600 rounded-md  font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-200"
+                  className="text-white py-1 px-2 border border-green-600 rounded-md  font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-200"
                   aria-current="page"
                 >
-                  Home!
+                  Home
                 </Link>
 
                 <Link
@@ -89,9 +83,9 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
+                  className="text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
-                  About me!
+                  About
                 </Link>
 
                 <Link
@@ -100,9 +94,9 @@ const Header = () => {
                   smooth={true}
                   offset={0}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
+                  className=" text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
-                  Skills!
+                  Skills
                 </Link>
 
                 <Link
@@ -111,9 +105,9 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
+                  className="text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
-                  Projects!
+                  Projects
                 </Link>
 
                 <Link
@@ -122,9 +116,9 @@ const Header = () => {
                   smooth={true}
                   offset={10}
                   duration={500}
-                  className="bg-gray-900 text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
+                  className=" text-white rounded-md font-bold hover:text-green-500 ease-in-out duration-200 hover:cursor-pointer"
                 >
-                  Contact me!
+                  Contact
                 </Link>
               </div>
             </div>
@@ -147,7 +141,7 @@ const Header = () => {
             className="bg-gray-900 text-white hover:text-green-500 border border-green-600 block px-3 py-2 rounded-md text-base font-medium "
             aria-current="page"
           >
-            Home!
+            Home
           </Link>
           <Link
             to="about"
@@ -157,7 +151,7 @@ const Header = () => {
             duration={500}
             className="text-gray-300 hover:bg-gray-700 hover:text-green-500 block px-3 py-2 rounded-md text-base font-medium"
           >
-            About me!
+            About me
           </Link>
 
           <Link
@@ -169,7 +163,7 @@ const Header = () => {
             className="text-gray-300 hover:bg-gray-700 hover:text-green-500 block px-3 py-2 rounded-md text-base font-medium"
             aria-current="page"
           >
-            Skills!
+            Skills
           </Link>
 
           <Link
@@ -180,7 +174,7 @@ const Header = () => {
             duration={500}
             className="text-gray-300 hover:bg-gray-700 hover:text-green-500 block px-3 py-2 rounded-md text-base font-medium"
           >
-            Projects!
+            Projects
           </Link>
           <Link
             to="contact"
@@ -190,7 +184,7 @@ const Header = () => {
             duration={500}
             className="text-gray-300 hover:bg-gray-700 hover:text-green-500 block px-3 py-2 rounded-md text-base font-medium"
           >
-            Contact me!
+            Contact me
           </Link>
         </div>
       </div>

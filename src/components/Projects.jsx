@@ -2,14 +2,14 @@ import 'boxicons';
 
 const Projects = () => {
   return (
-    <>
+    <section>
       <div id="projects" className="w-100 flex justify-center items-center">
         <div className="mx-auto max-w-6xl py-8">
-          <h2 className="text-center text-5xl mb-10 font-medium">
+          <h2 className="text-center text-5xl mb-3 font-medium">
             Here my{' '}
             <span className="text-6xl font-bold text-green-500">Projects!</span>
           </h2>
-          <div className="flex flex-col flex-wrap items-center justify-center gap-3 lg:justify-around">
+          <div className="md:p-10 flex flex-col flex-wrap items-center justify-center gap-3 lg:justify-around">
             {/* Card 1 */}
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl md:text-3xl py-3 text-center">
@@ -161,7 +161,7 @@ const Projects = () => {
             {/* Card 3 */}
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl md:text-3xl py-3 text-center">
-                <h3 className="font-bold uppercase">Patients CRUD</h3>
+                <h3 className="font-bold uppercase">CRUD Pacientes</h3>
               </div>
               <div>
                 <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
@@ -236,7 +236,9 @@ const Projects = () => {
             {/* Card 4 */}
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl md:text-3xl py-3 text-center">
-                <h3 className="font-bold uppercase">Auto Insurance Quote</h3>
+                <h3 className="font-bold uppercase">
+                  Cotizador de Seguros Autos
+                </h3>
               </div>
               <div>
                 <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
@@ -312,7 +314,7 @@ const Projects = () => {
             {/* Card 5 */}
             <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-md shadow-green-400 rounded-md hover:bg-gray-900">
               <div className="text-xl md:text-3xl py-3 text-center">
-                <h3 className="font-bold uppercase">CMR Project</h3>
+                <h3 className="font-bold uppercase">Proyecto CMR</h3>
               </div>
               <div>
                 <div className="w-100 mx-auto flex justify-center items-center gap-3 p-4">
@@ -373,7 +375,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
-    </>
+    </section>
   );
 };
 
