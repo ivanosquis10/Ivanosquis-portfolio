@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section
       id="about"
-      className="py-24 flex items-center min-h-full justify-center"
+      className="py-10 flex items-center min-h-full justify-center"
     >
       <div className="mx-auto max-w-full px-5 md:px-10">
         <div className="text-center">

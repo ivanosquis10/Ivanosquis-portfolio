@@ -5,7 +5,7 @@ const Projects = () => {
     <section>
       <div id="projects" className="w-100 flex justify-center items-center">
         <div className="mx-auto max-w-6xl py-8">
-          <h2 className="text-center text-5xl mb-3 font-medium">
+          <h2 className="text-center text-5xl mb-8 font-medium">
             Here my{' '}
             <span className="text-6xl font-bold text-green-500">Projects!</span>
           </h2>

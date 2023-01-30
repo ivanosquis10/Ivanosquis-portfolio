@@ -8,7 +8,7 @@ const Header = () => {
   const handleMobileMenu = () => setMenu(!menu);
 
   return (
-    <nav className="py-1 bg-slate-900" name="nav" id="nav">
+    <nav className="py-1" name="nav" id="nav">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between md:fixed md:z-50 md:top-0 md:left-0 md:right-0 md:bg-slate-900 md:px-5 md:pb-5">
           <div className="absolute inset-y-0 left-0 flex items-center mt-5 sm:hidden">
@@ -128,7 +128,7 @@ const Header = () => {
 
       {/* mobile */}
       <div
-        className={`${menu ? 'hidden' : 'block'} h-screen sm:hidden `}
+        className={`${menu ? 'hidden' : 'block'} h-max sm:hidden `}
         id="mobile-menu"
       >
         <div className="space-y-4 px-5 pt-2 pb-3 text-center">
