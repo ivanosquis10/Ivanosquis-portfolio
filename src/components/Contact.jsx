@@ -40,8 +40,8 @@ const Contact = () => {
 
               <div className="flex items-center gap-1 shadow rounded-md py-1  sm:w-2/5 sm:px-2">
                 <box-icon
-                  name="twitter"
                   type="logo"
+                  name="twitter"
                   size="sm"
                   color="#1DA1F2"
                   animation="tada-hover"
@@ -57,8 +57,8 @@ const Contact = () => {
 
               <div className="flex items-center gap-1 shadow rounded-md py-1 sm:w-2/5 sm:px-2">
                 <box-icon
-                  name="discord"
                   type="logo"
+                  name="discord"
                   size="sm"
                   color="#5865F2"
                   animation="tada-hover"

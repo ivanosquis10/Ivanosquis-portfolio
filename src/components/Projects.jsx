@@ -1,4 +1,8 @@
 import 'boxicons';
+import controlPresupuesto from '../assets/projectsImg/planificadorGastos.png';
+import cotizadorCripto from '../assets/projectsImg/cotizadorCripto.png';
+import crudPacientes from '../assets/projectsImg/crudPacientes.png';
+import cotizadorAutos from '../assets/projectsImg/CotizadorAutos.png';
 
 const Projects = () => {
   return (
@@ -42,8 +46,8 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover rounded-xl"
-                        src="https://i.ibb.co/NVGwNRm/Screenshot-2023-01-25-17-04-12.png"
+                        className="bg-cover w-full h-full rounded-xl"
+                        src={controlPresupuesto}
                         alt="demo del proyecto del planificador de gastos"
                         loading="lazy"
                       />
@@ -115,8 +119,8 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover rounded-xl"
-                        src="https://i.ibb.co/CnFm9WV/Screenshot-2023-01-25-18-07-15.png"
+                        className="bg-cover w-full h-full rounded-xl"
+                        src={cotizadorCripto}
                         alt="demo del proyecto del cotizador de criptomonedas"
                         loading="lazy"
                       />
@@ -192,8 +196,8 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover rounded-xl"
-                        src="https://i.ibb.co/0CYYmpN/Screenshot-2023-01-25-18-15-45.png"
+                        className="bg-cover w-full h-full rounded-xl"
+                        src={crudPacientes}
                         alt="demo del proyecto de pacientes veterinarios"
                         loading="lazy"
                       />
@@ -270,8 +274,8 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover rounded-xl"
-                        src="https://i.ibb.co/4FnBGPF/Screenshot-2023-01-25-18-21-42.png"
+                        className="bg-cover w-full h-full rounded-xl"
+                        src={cotizadorAutos}
                         alt="demo del proyecto del cotizador de seguros de autos"
                         loading="lazy"
                       />

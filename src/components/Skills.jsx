@@ -8,6 +8,7 @@ import nodejs from '../assets/skillsimg/nodejs.svg';
 import git from '../assets/skillsimg/git.svg';
 import mysql from '../assets/skillsimg/mysql.svg';
 import terminal from '../assets/skillsimg/terminal.svg';
+import SkillsCards from './SkillsCards';
 
 const Skills = () => {
   return (
@@ -18,105 +19,29 @@ const Skills = () => {
           <span className="text-6xl font-bold text-green-500">Skills!</span>
         </h2>
 
-        <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-5 text-center">
-          <div className="w-9/12 mx-auto md:w-full py-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={html}
-              alt="logo de html5"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">HTML</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={css}
-              alt="logo de css3"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">CSS</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={js}
-              alt="logo de javascript"
-            />
-            <p className="font-bold text-2xl">JavaScript</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-5/12 md:w-6/12"
-              src={react}
-              alt="logo de react"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">React</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={vitejs}
-              alt="logo de vitejs"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">ViteJS</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={nodejs}
-              alt="logo de nodeJS"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">NodeJS</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={git}
-              alt="logo de git"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">Git</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={mysql}
-              alt="logo de mysql"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">Mysql</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={terminal}
-              alt="logo de la terminal"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">Terminal</p>
-          </div>
-
-          <div className="w-9/12 mx-auto md:w-full p-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-            <img
-              className="w-4/12 md:w-6/12"
-              src={tailwindcss}
-              alt="logo de tailwindcss"
-              loading="lazy"
-            />
-            <p className="font-bold text-2xl">TailwindCSS</p>
-          </div>
+        <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-5 text-center">
+          <SkillsCards svg={html} txtAlt="logo de html5" svgName="html5" />
+          <SkillsCards svg={css} txtAlt="logo de css3" svgName="css3" />
+          <SkillsCards
+            svg={js}
+            txtAlt="logo de javascript"
+            svgName="javascript"
+          />
+          <SkillsCards svg={react} txtAlt="logo de react" svgName="react" />
+          <SkillsCards svg={nodejs} txtAlt="logo de nodejs" svgName="nodejs" />
+          <SkillsCards svg={git} txtAlt="logo de git" svgName="git" />
+          <SkillsCards
+            svg={terminal}
+            txtAlt="logo de la terminal"
+            svgName="terminal"
+          />
+          <SkillsCards
+            svg={tailwindcss}
+            txtAlt="logo de tailwind"
+            svgName="tailwindcss"
+          />
+          <SkillsCards svg={vitejs} txtAlt="logo de vitejs" svgName="vitejs" />
+          <SkillsCards svg={mysql} txtAlt="logo de mysql" svgName="mysql" />
         </div>
       </div>
     </section>

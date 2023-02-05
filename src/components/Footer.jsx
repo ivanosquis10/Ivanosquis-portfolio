@@ -5,10 +5,10 @@ const Footer = () => {
     <footer id="footer" className="mx-auto w-11/12 p-16">
       <div>
         <div className="flex flex-col text-center">
-          <p className="text-lg leading-none text-gray-400 mt-4 font-bold">
+          <p className="text-lg leading-none text-gray-200 mt-4 font-bold">
             Ivanosquis - Copyright © 2023
           </p>
-          <p className="text-md font-medium leading-none text-gray-500 mt-4">
+          <p className="text-md font-medium leading-none text-gray-300 mt-4">
             All rights reserved
           </p>
           <div className="flex items-center justify-center gap-x-4 mt-12">
