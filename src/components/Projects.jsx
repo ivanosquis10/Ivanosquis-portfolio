@@ -64,12 +64,12 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/control-presupuesto-proyecto"
                       target="_blank"
-                      className="hover:text-white"
+                      title="Repositorio Control Presupuesto"
                     >
                       <box-icon
                         type="logo"
                         name="github"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -78,10 +78,11 @@ const Projects = () => {
                     <a
                       href="https://aesthetic-lolly-990a8f.netlify.app/"
                       target="_blank"
+                      title="Demo Control Presupuesto"
                     >
                       <box-icon
                         name="paper-plane"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -137,11 +138,12 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/proyecto-cotizacion-crypto"
                       target="_blank"
+                      title="Repositorio Cotizador Criptomonedas"
                     >
                       <box-icon
                         type="logo"
                         name="github"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -150,10 +152,11 @@ const Projects = () => {
                     <a
                       href="https://cerulean-cucurucho-e6c6c9.netlify.app"
                       target="_blank"
+                      title="Demo Cotizador Criptomonedas"
                     >
                       <box-icon
                         name="paper-plane"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -213,11 +216,12 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/patients-crud-react-udemy"
                       target="_blank"
+                      title="Repositorio Pacientes CRUD"
                     >
                       <box-icon
                         type="logo"
                         name="github"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -226,10 +230,11 @@ const Projects = () => {
                     <a
                       href="https://cute-unicorn-4c9a71.netlify.app"
                       target="_blank"
+                      title="Demo Pacientes CRUD"
                     >
                       <box-icon
                         name="paper-plane"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -291,11 +296,12 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/autoinsurance-quotes-project"
                       target="_blank"
+                      title="Repositorio Cotizador Autos"
                     >
                       <box-icon
                         type="logo"
                         name="github"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -304,10 +310,11 @@ const Projects = () => {
                     <a
                       href="https://autoinsurance-quotes-ivanosquis.vercel.app/"
                       target="_blank"
+                      title="Demo Cotizador Autos"
                     >
                       <box-icon
                         name="paper-plane"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -354,11 +361,12 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/CRM-project"
                       target="_blank"
+                      title="Repositorio CMR"
                     >
                       <box-icon
                         type="logo"
                         name="github"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>
@@ -367,10 +375,11 @@ const Projects = () => {
                     <a
                       href="https://github.com/ivanosquis10/CRM-project"
                       target="_blank"
+                      title="Repositorio CMR"
                     >
                       <box-icon
                         name="paper-plane"
-                        color="gray"
+                        color="#22c55e"
                         size="md"
                         animation="tada-hover"
                       ></box-icon>

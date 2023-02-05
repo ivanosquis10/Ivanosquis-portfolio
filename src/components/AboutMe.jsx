@@ -8,11 +8,11 @@ const AboutMe = () => {
     >
       <div className="mx-auto max-w-full px-5 md:px-10">
         <div className="text-center">
-          <h2 className="mt-3 mb-3 text-[4rem] md:text-[5rem] font-medium leading-[4rem] tracking-tight text-white">
+          <h2 className="mt-3 mb-3 text-[4rem] md:text-[5rem] font-medium leading-[4rem] tracking-tight text-slate-200">
             I'm
             <span className="text-green-500 font-bold"> Iván Rodríguez</span>
           </h2>
-          <p className="text-2xl md:text-3xl font-bold leading-8 text-slate-400 mb-3">
+          <p className="text-2xl md:text-3xl font-bold leading-8 text-slate-300 mb-3">
             Frontend Developer React
           </p>
           <div className="grid md:grid-cols-2 items-center md:gap-4">
