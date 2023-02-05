@@ -15,12 +15,16 @@ const AboutMe = () => {
           <p className="text-2xl md:text-3xl font-bold leading-8 text-slate-400 mb-3">
             Frontend Developer React
           </p>
-          <p className="mt-5 text-md md:text-lg leading-relaxed text-slate-400 px-2">
-            Tengo 22 años de edad y soy de Venezuela. Soy una persona muy
-            proactiva, con ganas de aprender y mejorar cada vez más. Me
-            considero un buen compañero de equipo y muy comunicativo, positivo,
-            analista, apasionado y dedicado a mis responsabilidades.
-          </p>
+          <div className="grid md:grid-cols-2 items-center md:gap-4">
+            <p className="mt-2 md:mb-2 text-base md:text-lg leading-relaxed text-slate-300 px-3 md:p-0">
+              Tengo 22 años de edad y soy de Venezuela. Soy una persona muy
+              proactiva, con ganas de aprender y mejorar cada vez más
+            </p>
+            <p className="mt-2 mb-2 text-base md:text-lg leading-relaxed text-slate-300 px-3 md:p-0">
+              Me considero un buen compañero de equipo, muy comunicativo,
+              positivo, analista, apasionado, dedicado y responsable
+            </p>
+          </div>
         </div>
 
         <div className="w-1/2 mx-auto mt-6 flex flex-col items-center justify-center md:flex-row gap-4 ">
@@ -30,7 +34,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className="w-full transform rounded-md bg-green-600 px-5 py-3 border border-slate-200 font-bold text-white text-center transition-colors hover:bg-green-700 hover:cursor-pointer"
+            className="w-full uppercase transform rounded-md transparent shadow shadow-white px-5 py-3  font-bold text-white text-center transition-colors hover:bg-green-700 hover:cursor-pointer"
           >
             My Projects
           </Link>
@@ -40,7 +44,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className="w-full transform rounded-md border border-slate-200 px-5 py-3 font-medium text-white text-center transition-colors hover:bg-slate-700 hover:cursor-pointer"
+            className="w-full uppercase transform rounded-md transparent shadow shadow-white px-5 py-3  font-bold text-white text-center transition-colors hover:bg-green-700 hover:cursor-pointer"
           >
             Contact me
           </Link>

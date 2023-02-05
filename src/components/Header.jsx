@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import heart from '../assets/heart.svg';
 
 const Header = () => {
   const [menu, setMenu] = useState(true);
@@ -8,13 +7,13 @@ const Header = () => {
   const handleMobileMenu = () => setMenu(!menu);
 
   return (
-    <nav className="py-1" name="nav" id="nav">
+    <nav className="md:mt-20" name="nav" id="nav">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between md:fixed md:z-50 md:top-0 md:left-0 md:right-0 md:bg-slate-900 md:px-5 md:pb-5">
           <div className="absolute inset-y-0 left-0 flex items-center mt-5 sm:hidden">
             <button
               type="button"
-              className="inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+              className="inline-flex items-center justify-center rounded-md p-2 text-white hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
               onClick={handleMobileMenu}
@@ -34,14 +33,13 @@ const Header = () => {
                   d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 />
               </svg>
-
               <svg
                 className="hidden h-6 w-6"
                 xmlns="http://www.w3.org/2000/svg"
-                fill="none"
+                fill="#ffffff"
                 viewBox="0 0 24 24"
                 strokeWidth="1.5"
-                stroke="currentColor"
+                stroke="#ffffff"
                 aria-hidden="true"
               >
                 <path
@@ -54,14 +52,7 @@ const Header = () => {
           </div>
           <div className="flex flex-1 items-center justify-center mt-5 sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center gap-3 text-2xl">
-              <img
-                className="h-6 w-auto"
-                src={heart}
-                alt="imagen de un corazon"
-              />
-              <a className="font-black" href="#">
-                Ivanosquis!
-              </a>
+              <h2 className="font-black">Ivanosquis!</h2>
             </div>
             <div className="hidden sm:block ">
               <div className="flex text-[12px] md:text-base items-center space-x-4">

@@ -45,6 +45,7 @@ const Projects = () => {
                         className="bg-cover rounded-xl"
                         src="https://i.ibb.co/NVGwNRm/Screenshot-2023-01-25-17-04-12.png"
                         alt="demo del proyecto del planificador de gastos"
+                        loading="lazy"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -117,6 +118,7 @@ const Projects = () => {
                         className="bg-cover rounded-xl"
                         src="https://i.ibb.co/CnFm9WV/Screenshot-2023-01-25-18-07-15.png"
                         alt="demo del proyecto del cotizador de criptomonedas"
+                        loading="lazy"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -193,6 +195,7 @@ const Projects = () => {
                         className="bg-cover rounded-xl"
                         src="https://i.ibb.co/0CYYmpN/Screenshot-2023-01-25-18-15-45.png"
                         alt="demo del proyecto de pacientes veterinarios"
+                        loading="lazy"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -270,6 +273,7 @@ const Projects = () => {
                         className="bg-cover rounded-xl"
                         src="https://i.ibb.co/4FnBGPF/Screenshot-2023-01-25-18-21-42.png"
                         alt="demo del proyecto del cotizador de seguros de autos"
+                        loading="lazy"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
