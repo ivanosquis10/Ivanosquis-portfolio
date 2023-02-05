@@ -4,8 +4,9 @@ const Button = ({ src, text }) => {
       <a
         href={src}
         target="_blank"
-        className="font-bold cursor-pointer invisible"
+        className="font-bold cursor-pointer"
         rel="noopener noreferrer"
+        title="boton para ver el CV"
       >
         {text}
       </a>

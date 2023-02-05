@@ -71,8 +71,8 @@ const Contact = () => {
                   Ivanosquis10#5178
                 </a>
               </div>
-              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 hover:cursor-pointer">
-                <Button src={pdf} text="Ver CV - View CV" />
+              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 hover:cursor-pointer not-active">
+                <Button src={pdf} text="(no disponible)" />
               </div>
             </div>
           </div>
