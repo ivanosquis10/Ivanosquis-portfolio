@@ -46,7 +46,9 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover max-w-full max-h-full rounded-xl"
+                        width="370px"
+                        height="208px"
+                        className="bg-cover rounded-xl"
                         src={controlPresupuesto}
                         alt="demo del proyecto del planificador de gastos"
                         loading="lazy"
@@ -121,7 +123,9 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover w-full h-full rounded-xl"
+                        width="370px"
+                        height="208px"
+                        className="bg-cover rounded-xl"
                         src={cotizadorCripto}
                         alt="demo del proyecto del cotizador de criptomonedas"
                         loading="lazy"
@@ -201,7 +205,9 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover w-full h-full rounded-xl"
+                        width="370px"
+                        height="208px"
+                        className="bg-cover rounded-xl"
                         src={crudPacientes}
                         alt="demo del proyecto de pacientes veterinarios"
                         loading="lazy"
@@ -282,7 +288,9 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover w-full h-full rounded-xl"
+                        width="370px"
+                        height="208px"
+                        className="bg-cover rounded-xl"
                         src={cotizadorAutos}
                         alt="demo del proyecto del cotizador de seguros de autos"
                         loading="lazy"
