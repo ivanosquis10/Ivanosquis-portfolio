@@ -46,10 +46,11 @@ const Projects = () => {
                       target="_blank"
                     >
                       <img
-                        className="bg-cover w-full h-full rounded-xl"
+                        className="bg-cover max-w-full max-h-full rounded-xl"
                         src={controlPresupuesto}
                         alt="demo del proyecto del planificador de gastos"
                         loading="lazy"
+                        title="Demo del proyecto"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -124,6 +125,7 @@ const Projects = () => {
                         src={cotizadorCripto}
                         alt="demo del proyecto del cotizador de criptomonedas"
                         loading="lazy"
+                        title="Demo del proyecto"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -203,6 +205,7 @@ const Projects = () => {
                         src={crudPacientes}
                         alt="demo del proyecto de pacientes veterinarios"
                         loading="lazy"
+                        title="Demo del proyecto"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
@@ -283,6 +286,7 @@ const Projects = () => {
                         src={cotizadorAutos}
                         alt="demo del proyecto del cotizador de seguros de autos"
                         loading="lazy"
+                        title="Demo del proyecto"
                       />
                     </a>
                     <p className="text-base md:text-xl text-gray-300 mt-1">
