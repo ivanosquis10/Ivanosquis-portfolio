@@ -3,7 +3,7 @@ const SkillsCards = ({ svg, txtAlt, svgName }) => {
 
   return (
     <div className="w-9/12 mx-auto md:w-full py-2 flex flex-col justify-center items-center gap-2 rounded shadow shadow-green-500 hover:shadow-md hover:shadow-green-600 ease-in-out duration-200">
-      <img width="100px" height="100px" src={svg} alt={txtAlt} loading="lazy" />
+      <img width="80px" height="80px" src={svg} alt={txtAlt} loading="lazy" />
       <p className="font-bold text-xl uppercase">{svgName}</p>
     </div>
   );

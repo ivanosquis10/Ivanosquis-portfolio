@@ -1,3 +1,4 @@
+/*
 import html from '../assets/skillsimg/html.svg';
 import css from '../assets/skillsimg/css.svg';
 import js from '../assets/skillsimg/js.svg';
@@ -8,6 +9,7 @@ import nodejs from '../assets/skillsimg/nodejs.svg';
 import git from '../assets/skillsimg/git.svg';
 import mysql from '../assets/skillsimg/mysql.svg';
 import terminal from '../assets/skillsimg/terminal.svg';
+*/
 import SkillsCards from './SkillsCards';
 
 const Skills = () => {
@@ -20,28 +22,56 @@ const Skills = () => {
         </h2>
 
         <div className="w-full mx-auto md:max-w-full md:mx-auto grid grid-cols-1 gap-y-5 gap-x-4 sm:grid-cols-2 lg:grid-cols-5 text-center">
-          <SkillsCards svg={html} txtAlt="logo de html5" svgName="html5" />
-          <SkillsCards svg={css} txtAlt="logo de css3" svgName="css3" />
           <SkillsCards
-            svg={js}
+            svg="/skillsImg/html.svg"
+            txtAlt="logo de html5"
+            svgName="html5"
+          />
+          <SkillsCards
+            svg="/skillsImg/css.svg"
+            txtAlt="logo de css3"
+            svgName="css3"
+          />
+          <SkillsCards
+            svg="/skillsImg/js.svg"
             txtAlt="logo de javascript"
             svgName="javascript"
           />
-          <SkillsCards svg={react} txtAlt="logo de react" svgName="react" />
-          <SkillsCards svg={nodejs} txtAlt="logo de nodejs" svgName="nodejs" />
-          <SkillsCards svg={git} txtAlt="logo de git" svgName="git" />
           <SkillsCards
-            svg={terminal}
+            svg="/skillsImg/react.svg"
+            txtAlt="logo de react"
+            svgName="react"
+          />
+          <SkillsCards
+            svg="/skillsImg/nodejs.svg"
+            txtAlt="logo de nodejs"
+            svgName="nodejs"
+          />
+          <SkillsCards
+            svg="/skillsImg/git.svg"
+            txtAlt="logo de git"
+            svgName="git"
+          />
+          <SkillsCards
+            svg="/skillsImg/terminal.svg"
             txtAlt="logo de la terminal"
             svgName="terminal"
           />
           <SkillsCards
-            svg={tailwindcss}
+            svg="/skillsImg/tailwindcss.svg"
             txtAlt="logo de tailwind"
             svgName="tailwindcss"
           />
-          <SkillsCards svg={vitejs} txtAlt="logo de vitejs" svgName="vitejs" />
-          <SkillsCards svg={mysql} txtAlt="logo de mysql" svgName="mysql" />
+          <SkillsCards
+            svg="/skillsImg/vite.svg"
+            txtAlt="logo de vitejs"
+            svgName="vitejs"
+          />
+          <SkillsCards
+            svg="/skillsImg/mysql.svg"
+            txtAlt="logo de mysql"
+            svgName="mysql"
+          />
         </div>
       </div>
     </section>

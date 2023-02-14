@@ -34,7 +34,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className="w-full uppercase transform rounded-md shadow-3xl border-2 border-green-700 px-5 py-3 font-bold text-white text-center ease-in-out duration-300 hover:border-green-500 hover:cursor-pointer"
+            className="w-full uppercase transform rounded-md shadow shadow-green-900 border-2 border-green-700 px-5 py-3 font-bold text-white text-center ease-in-out duration-300 hover:border-green-500 hover:cursor-pointer"
           >
             My Projects
           </Link>
@@ -44,7 +44,7 @@ const AboutMe = () => {
             smooth={true}
             offset={10}
             duration={500}
-            className="w-full uppercase transform rounded-md shadow-3xl border-2 border-green-700 px-5 py-3 font-bold text-white text-center ease-in-out duration-300 hover:border-green-500 hover:cursor-pointer"
+            className="w-full uppercase transform rounded-md shadow shadow-green-900 border-2 border-green-700 px-5 py-3 font-bold text-white text-center ease-in-out duration-300 hover:border-green-500 hover:cursor-pointer"
           >
             Contact me
           </Link>

@@ -4,8 +4,8 @@ import 'boxicons';
 
 const Contact = () => {
   return (
-    <section id="contact" className="w-11/12 mx-auto pt-16">
-      <div className="lg:flex mb-10">
+    <section id="contact" className="w-11/12 mx-auto pt-10">
+      <div className="lg:flex mb-5">
         <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
           <div className="xl:w-5/6 xl:px-0 mx-auto">
             <h2 className="text-4xl md:text-5xl md:pb-4 pb-3 text-white font-bold uppercase">
