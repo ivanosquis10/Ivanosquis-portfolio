@@ -16,7 +16,7 @@ const Projects = () => {
           </h2>
           <div className="md:p-10 flex flex-col flex-wrap items-center justify-center gap-2 md:gap-4 lg:justify-around">
             {/* Card 1 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow hover:shadow-xl rounded-md ease-in-out duration-200">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
               <div className="text-xl md:text-3xl py-3 text-center">
                 <h3 className="font-bold uppercase">Control Presupuesto</h3>
               </div>
@@ -98,7 +98,7 @@ const Projects = () => {
             {/* Card 1 Ends */}
 
             {/* Card 2 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow hover:shadow-xl rounded-md ease-in-out duration-200">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
               <div className="text-xl md:text-3xl py-3 text-center">
                 <h3 className="font-bold uppercase">Cotizador Criptomonedas</h3>
               </div>
@@ -175,7 +175,7 @@ const Projects = () => {
             {/* Card 2 Ends */}
 
             {/* Card 3 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow hover:shadow-xl rounded-md ease-in-out duration-200">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
               <div className="text-xl md:text-3xl py-3 text-center">
                 <h3 className="font-bold uppercase">CRUD Pacientes</h3>
               </div>
@@ -255,7 +255,7 @@ const Projects = () => {
             {/* Card 3 Ends */}
 
             {/* Card 4 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow hover:shadow-xl rounded-md ease-in-out duration-200">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
               <div className="text-xl md:text-3xl py-3 text-center">
                 <h3 className="font-bold uppercase">
                   Cotizador de Seguros Autos
@@ -338,7 +338,7 @@ const Projects = () => {
             {/* Card 4 Ends */}
 
             {/* Card 5 */}
-            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow hover:shadow-xl rounded-md ease-in-out duration-200">
+            <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
               <div className="text-xl md:text-3xl py-3 text-center">
                 <h3 className="font-bold uppercase">Proyecto CMR</h3>
               </div>
