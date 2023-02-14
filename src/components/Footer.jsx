@@ -5,13 +5,13 @@ const Footer = () => {
     <footer id="footer" className="mx-auto w-11/12 p-16">
       <div>
         <div className="flex flex-col text-center">
-          <p className="text-lg leading-none text-gray-200 mt-4 font-bold">
-            Ivanosquis - Copyright © 2023
+          <p className="text-sm leading-none text-gray-200 mt-4 font-bold">
+            Copyright© 2023
           </p>
-          <p className="text-md font-medium leading-none text-gray-300 mt-4">
+          <p className="text-xs leading-none text-gray-300 mt-4">
             All rights reserved
           </p>
-          <div className="flex items-center justify-center gap-x-4 mt-12">
+          <div className="flex items-center justify-center gap-x-3 mt-8">
             <div>
               <a href="https://twitter.com/ivanosquis13" target="_blank">
                 <box-icon

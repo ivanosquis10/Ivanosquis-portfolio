@@ -8,15 +8,15 @@ const Contact = () => {
       <div className="lg:flex mb-10">
         <div className="w-11/12 mx-auto p-5 md:p-10 rounded shadow-md">
           <div className="xl:w-5/6 xl:px-0 mx-auto">
-            <h2 className="text-center text-4xl md:text-6xl md:pb-4 pb-3 text-white font-bold uppercase">
+            <h2 className="text-4xl md:text-5xl md:pb-4 pb-3 text-white font-bold uppercase">
               Hi,<span className="text-green-500">Contact</span>
             </h2>
-            <p className="text-md md:text-xl text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
+            <p className="text-md text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
               ¿Tiene alguna pregunta? ¿Está interesado? ¿Tiene alguna sugerencia
               o simplemente quiere saludarnos? Póngase en contacto conmigo.
               Estaré encantado de hablar.
             </p>
-            <p className="text-md md:text-xl text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
+            <p className="text-md text-gray-400 pb-8 leading-relaxed font-medium lg:pr-4">
               Do you have any questions, are you interested? Have a suggestion
               or just want to say hello? Please contact me. I'll be happy to
               talk to you.
@@ -71,7 +71,7 @@ const Contact = () => {
                   Ivanosquis10#5178
                 </a>
               </div>
-              <div className="w-100 text-xl md:text-2xl mt-5 p-4 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 hover:cursor-pointer not-active">
+              <div className="w-100 text-base mt-5 py-2 rounded-md text-center border hover:bg-green-600 ease-in-out duration-300 hover:cursor-pointer not-active">
                 <Button src={pdf} text="(no disponible)" />
               </div>
             </div>
