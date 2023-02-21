@@ -1,14 +1,14 @@
-import { useState } from 'react';
-import { Link } from 'react-scroll';
+import { useState } from 'react'
+import { Link } from 'react-scroll'
 
 const Header = () => {
-  const [menu, setMenu] = useState(true);
-  const handleMobileMenu = () => setMenu(!menu);
+  const [menu, setMenu] = useState(true)
+  const handleMobileMenu = () => setMenu(!menu)
 
   return (
     <nav className="md:mt-24" name="nav" id="nav">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-        <div className="relative flex h-16 items-center justify-between md:fixed md:z-50 md:top-0 md:left-0 md:right-0 md:bg-slate-900 md:px-10 md:pb-5">
+        <div className="relative flex items-center justify-between md:fixed md:z-50 md:top-0 md:left-0 md:right-0 md:bg-slate-900 md:px-20 md:pb-5">
           <div className="absolute inset-y-0 left-0 flex items-center mt-5 sm:hidden">
             <button
               type="button"
@@ -49,10 +49,19 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          <div className="flex flex-1 items-center justify-center mt-5 sm:items-stretch sm:justify-between">
+
+          <div className="w-full flex items-center justify-center mt-5 sm:justify-between">
             <div className="flex flex-shrink-0 items-center gap-3 text-2xl">
-              <h2 className="font-black">Ivanosquis!</h2>
+              <img
+                src="./logos/logo-koi-1.svg"
+                width="100"
+                height="100"
+                alt="logo ivanosquis portfolio"
+                loading="lazy"
+              />
             </div>
+
+            {/*nav large */}
             <div className="hidden sm:block ">
               <div className="flex text-[12px] md:text-base items-center space-x-4">
                 <Link
@@ -116,7 +125,7 @@ const Header = () => {
         </div>
       </div>
 
-      {/* mobile */}
+      {/* nav mobile */}
       <div
         className={`${menu ? 'hidden' : 'block'} h-max sm:hidden `}
         id="mobile-menu"
@@ -179,7 +188,7 @@ const Header = () => {
         </div>
       </div>
     </nav>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

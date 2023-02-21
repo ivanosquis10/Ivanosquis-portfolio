@@ -1,4 +1,4 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 
 const Footer = () => {
   return (
@@ -49,7 +49,13 @@ const Footer = () => {
               </a>
             </div>
             <div>
-              <Link to="nav" spy={true} smooth={true} offset={0} duration={500}>
+              <Link
+                to="nav"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
                 <box-icon
                   type="solid"
                   name="chevrons-up"
@@ -63,6 +69,6 @@ const Footer = () => {
         </div>
       </div>
     </footer>
-  );
-};
-export default Footer;
+  )
+}
+export default Footer
