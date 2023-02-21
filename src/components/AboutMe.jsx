@@ -1,4 +1,6 @@
 import { Link } from 'react-scroll';
+import Spinner from './Spinner'
+
 
 const AboutMe = () => {
   return (
