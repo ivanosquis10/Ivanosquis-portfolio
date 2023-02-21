@@ -53,7 +53,7 @@ const Header = () => {
           <div className="w-full flex items-center justify-center mt-5 sm:justify-between">
             <div className="flex flex-shrink-0 items-center gap-3 text-2xl">
               <img
-                src="./logos/logo-koi-1.webp"
+                src="./logos/logo-koi-1.svg"
                 width="100"
                 height="100"
                 alt="logo ivanosquis portfolio"
