@@ -7,9 +7,9 @@ const Header = () => {
 
   return (
     <header class="relative w-full" name="header" id="header">
-      <nav className="fixed top-0 left-0 z-20 w-full px-6 transition-all duration-100 lg:px-12 py-2 shadow backdrop-blur bg-white-900/60">
+      <nav className="fixed top-0 left-0 z-20 w-full px-6 transition-all duration-100 lg:px-12 py-3 shadow backdrop-blur bg-slate-800/20">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-          <div class="relative h-10 flex flex-col items-center xs:flex-row justify-between">
+          <div class="relative h-12 flex flex-col items-center xs:flex-row justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
@@ -51,14 +51,23 @@ const Header = () => {
             </div>
 
             {/* menu large */}
-            <div class="flex flex-1 items-center justify-between">
+            <div class="lg:w-full flex items-center justify-between">
               {/* logo */}
-              <div class="flex flex-shrink-0 items-center sm:items-stretch">
+              <div class="flex flex-shrink-0 items-center sm:items-stretch cursor-pointer">
                 <Link
-                  className="text-lg focus-within:rounded focus-within:outline focus-within:outline-2 focus-within:outline-offset-2 focus-within:outline-green-500/80 px-2"
-                  href="/"
+                  to="header"
+                  spy={true}
+                  smooth={true}
+                  offset={-100}
+                  duration={500}
                 >
-                  Ivanosquis
+                  <img
+                    width="50"
+                    height="50"
+                    src="./logos/logo-iv-3.svg"
+                    alt="logo del portafolio"
+                    loading="lazy"
+                  />
                 </Link>
               </div>
 
@@ -131,7 +140,7 @@ const Header = () => {
           className={`${!menu ? 'hidden' : 'block'} h-max sm:hidden `}
           id="mobile-menu"
         >
-          <div class="space-y-4 px-2 pt-2 pb-3 text-center">
+          <div class="space-y-4 px-2 pt-2 pb-3 text-center mt-5">
             <Link
               to="header"
               spy={true}
