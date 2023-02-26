@@ -9,7 +9,7 @@ const Header = () => {
     <header class="relative w-full" name="header" id="header">
       <nav className="fixed top-0 left-0 z-20 w-full px-6 transition-all duration-100 lg:px-12 py-2 shadow backdrop-blur bg-white-900/60">
         <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-          <div class="relative h-10 flex flex-col xs:flex-row items-center justify-between">
+          <div class="relative h-10 flex flex-col items-center xs:flex-row justify-between">
             <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
               <button
                 type="button"
@@ -131,14 +131,14 @@ const Header = () => {
           className={`${!menu ? 'hidden' : 'block'} h-max sm:hidden `}
           id="mobile-menu"
         >
-          <div class="space-y-1 px-2 pt-2 pb-3 text-center">
+          <div class="space-y-4 px-2 pt-2 pb-3 text-center">
             <Link
               to="header"
               spy={true}
               smooth={true}
               offset={-100}
               duration={500}
-              className="block text-white py-1 px-2 hover:bg-slate-900/40 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
+              className="block text-white py-1 px-2 hover:bg-slate-800/50 shadow shadow-green-800/80 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
               aria-current="page"
             >
               Home
@@ -150,7 +150,7 @@ const Header = () => {
               smooth={true}
               offset={-100}
               duration={500}
-              className="block text-white py-1 px-2 hover:bg-slate-900/40 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
+              className="block text-white py-1 px-2 hover:bg-slate-800/50 shadow shadow-green-800/80 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
             >
               About
             </Link>
@@ -161,7 +161,7 @@ const Header = () => {
               smooth={true}
               offset={-20}
               duration={500}
-              className="block text-white py-1 px-2 hover:bg-slate-900/40 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
+              className="block text-white py-1 px-2 hover:bg-slate-800/50 shadow shadow-green-800/80 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
             >
               Skills
             </Link>
@@ -172,7 +172,7 @@ const Header = () => {
               smooth={true}
               offset={-60}
               duration={500}
-              className="block text-white py-1 px-2 hover:bg-slate-900/40 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
+              className="block text-white py-1 px-2 hover:bg-slate-800/50 shadow shadow-green-800/80 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
             >
               Projects
             </Link>
@@ -183,7 +183,7 @@ const Header = () => {
               smooth={true}
               offset={-20}
               duration={500}
-              className="block text-white py-1 px-2 hover:bg-slate-900/40 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
+              className="block text-white py-1 px-2 hover:bg-slate-800/50 shadow shadow-green-800/80 rounded-md font-bold hover:cursor-pointer hover:text-green-500 ease-in-out duration-300"
             >
               Contact
             </Link>
