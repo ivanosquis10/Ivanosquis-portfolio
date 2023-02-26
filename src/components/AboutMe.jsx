@@ -1,12 +1,11 @@
-import { Link } from 'react-scroll';
+import { Link } from 'react-scroll'
 import Spinner from './Spinner'
-
 
 const AboutMe = () => {
   return (
     <section
       id="about"
-      className="py-10 flex items-center min-h-full justify-center"
+      className="py-10 flex items-center min-h-full justify-center mt-20"
     >
       <div className="mx-auto max-w-full px-5 md:px-10">
         <div className="text-center">
@@ -53,7 +52,7 @@ const AboutMe = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default AboutMe;
+export default AboutMe

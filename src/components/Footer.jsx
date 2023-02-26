@@ -50,7 +50,7 @@ const Footer = () => {
             </div>
             <div>
               <Link
-                to="nav"
+                to="header"
                 spy={true}
                 smooth={true}
                 offset={-100}
