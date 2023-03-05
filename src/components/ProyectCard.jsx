@@ -29,7 +29,7 @@ const ProyectCard = ({ proyecto }) => {
                 width="350px"
                 height="200px"
                 className="bg-cover rounded-xl"
-                src={`../${image}`}
+                src={`./${image}`}
                 alt={`demo del proyecto ${titulo}`}
                 loading="lazy"
                 title="Demo del proyecto"
