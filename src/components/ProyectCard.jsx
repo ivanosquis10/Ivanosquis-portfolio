@@ -1,7 +1,8 @@
 import 'boxicons'
 
-const ProyectCard = ({ proyecto }) => {
-  const { titulo, stack, image, descripcion, github, demo } = proyecto
+const ProyectCard = ({ titulo, stack, image, github, demo }) => {
+  // console.log(stack)
+  // const { titulo, stack, image, descripcion, github, demo } = proyecto
   return (
     <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
       <div className="text-xl md:text-3xl py-3 text-center">
@@ -35,9 +36,6 @@ const ProyectCard = ({ proyecto }) => {
                 title="Demo del proyecto"
               />
             </a>
-            <p className="md:text-base text-gray-300 mt-1 tracking-wide">
-              {descripcion}
-            </p>
           </div>
 
           <div className="flex items-center justify-center gap-2 py-4 mt-2">
