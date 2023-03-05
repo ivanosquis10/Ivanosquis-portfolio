@@ -1,9 +1,11 @@
+import imgControl from '../assets/img/planificadorGastos.webp'
+
 const proyectData = [
   {
     id: 1,
     titulo: 'control presupuesto',
     stack: ['React', 'Tailwindcss', 'ViteJS'],
-    image: 'projectsImg/planificadorGastos.webp',
+    image: imgControl,
     descripcion:
       'Permite colocar un presupuesto y una serie de gastos a través de un formulario que se van listando en la parte inferior de la pantalla. Permite agregar, eliminar y editar, existe validacion en los diferentes formularios',
     github: 'https://github.com/ivanosquis10/control-presupuesto-proyecto',
