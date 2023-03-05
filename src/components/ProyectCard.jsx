@@ -1,7 +1,6 @@
 import 'boxicons'
 
 const ProyectCard = ({ proyecto }) => {
-  // <p className="text-base md:text-lg text-white font-bold">React</p>
   const { titulo, stack, image, descripcion, github, demo } = proyecto
   return (
     <div className="w-10/12 mx-2 sm:w-100 lg:mb-5 mb-8 border-t-2 py-1 border-green-500 shadow-3xl hover:shadow-md rounded-md ease-in-out duration-200">
