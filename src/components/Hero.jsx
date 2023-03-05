@@ -2,25 +2,25 @@ import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
-    <section className="py-10 min-h-full h-screen md:grid md:grid-cols-3 md:items-center mb-10 md:mb-0">
-      <div className="md:col-span-2 max-w-full px-5 mt-20 md:mt-10">
-        <div>
-          <h1 className="mt-3 mb-3 text-[4rem] md:text-8xl font-medium leading-[4rem] tracking-tight text-slate-300">
+    <section className="py-10 min-h-full h-screen mb-10  mt-10 md:mb-0 grid place-content-center">
+      <div className="max-w-full px-5 flex flex-col items-center">
+        <div className="flex flex-col lg:items-center">
+          <h1 className="lg:text-center mt-3 mb-3 text-[4rem] md:text-8xl font-medium leading-[4rem] tracking-tight text-slate-300">
             I'm
             <span className="text-green-500 font-bold"> Iván Rodríguez</span>
           </h1>
-          <p className="text-2xl md:text-5xl font-bold leading-8 text-slate-300 mb-3">
+          <p className="text-2xl md:text-5xl font-bold lg:tracking-tighter text-slate-300 mb-3">
             Frontend Developer React
           </p>
           <div>
-            <p className="mt-2 md:mb-2 md:text-lg leading-relaxed text-slate-400 md:tracking-wide">
+            <p className="lg:text-center w-full lg:w-3/5 mx-auto mt-2 md:mb-2 md:text-lg leading-relaxed text-slate-400 md:tracking-wide">
               Tengo 22 años de edad y soy de Venezuela, soy una persona muy
               proactiva, con ganas de aprender y mejorar cada día más
             </p>
           </div>
         </div>
 
-        <div className="w-full md:w-3/4 mt-6 flex flex-col items-center justify-center md:flex-row gap-4">
+        <div className="w-full lg:w-3/4 mt-6 flex flex-col items-center justify-center md:flex-row gap-4">
           <Link
             to="projects"
             spy={true}
@@ -43,14 +43,6 @@ const Hero = () => {
           </Link>
         </div>
       </div>
-      <img
-        className="hidden lg:block"
-        src="../logos/logo-iv-3.svg"
-        width="400"
-        height="200"
-        alt="logotipo ivanosquis"
-        loading="lazy"
-      />
     </section>
   )
 }
